@@ -16,6 +16,8 @@ func Base64Encode(data []byte) []byte {
 	encoding.Encode(dst, data)
 	return dst
 
+
+
 }
 
 //base64解码
